@@ -17,3 +17,27 @@
 body {
   min-height: 100vh;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid red;
+  border-radius: 10px;
+  margin: 2em;
+}
+
+.desktop-img {
+  display: none;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
