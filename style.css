@@ -110,3 +110,34 @@ button.add-to-cart {
 button.add-to-cart:hover {
   transform: rotate(360deg);
 }
+
+@media screen and (max-width: 320px) {
+  .product {
+    font-size: 0.625rem; 
+  }
+
+  .product-name {
+    font-size: 1.438rem;
+  }
+
+  .intro {
+    font-size: 0.625rem;
+  }
+
+  .new-price {
+    font-size: 1.438rem;
+  }
+
+  .old-price {
+    font-size: 0.625rem;
+  }
+
+  button.add-to-cart {
+    font-size: 0.688rem;
+  }
+
+  .trolley-icon {
+    width: 5%;
+  }
+}
+
