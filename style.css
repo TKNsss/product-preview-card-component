@@ -100,4 +100,13 @@ button.add-to-cart {
   border-radius: 8px;
   padding: 15px 0;
   margin-top: 15px;
+  transition: width 2s, height 2s, transform 2s;
+  display: flex;
+  gap: 0.625rem;
+  justify-content: center;
+  font-weight: 700  ;
+}
+
+button.add-to-cart:hover {
+  transform: rotate(360deg);
 }
