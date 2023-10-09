@@ -31,8 +31,6 @@ body {
 .desktop-img {
   display: none;
   width: 100%;
-  background-size: cover;
-  background-position: center;
 }
 
 .mobile-img {
@@ -155,8 +153,9 @@ button.add-to-cart:hover {
 
   .desktop-img {
     display: inline;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    max-width: 400px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
   }
 
   .mobile-img {
@@ -164,54 +163,52 @@ button.add-to-cart:hover {
   }
 
   .product-info {
-    padding: 58px;  
+    padding: 50px;  
     background-color: var(--white);
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 15px;
     border-bottom-left-radius: 0;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 15px;
     font-weight: 500;
-    max-width: 600px;
-    max-height: 900px;
+    max-width: 400px;
+    max-height: 600px;
     position: relative;
     bottom: 2px;  
   }
 
   .product {
-    font-size: 1.563rem;
+    font-size: 0.938rem;
     letter-spacing: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
 
   .product-name {
-    font-size: 4.688rem;
-    padding-right: 42px;
-    padding-bottom: 45px;
+    font-size: 2.813rem;
+    padding-bottom: 30px;
   }
 
   .intro {
-    font-size: 1.625rem;
+    font-size: 1.125rem;
     line-height: 1.5;
-    padding-bottom: 40px;  
-    padding-right: 40px;
+    padding-bottom: 30px;  
   }
 
   .price {
-    gap: 2.5rem;
-    padding-bottom: 40px;
+    gap: 1.4rem;
+    padding-bottom: 20px;
   }
 
   .new-price {
-    font-size: 4.688rem;
+    font-size: 2.813rem;
   }
 
   .old-price {
-    font-size: 1.438rem;
+    font-size: 1.125rem;
   }
 
   button.add-to-cart {
-    font-size: 1.875rem;
-    gap: 1.4rem;
-    padding: 35px 0;
+    font-size: 1.125rem;
+    gap: 1rem;
+    padding: 20px 0;
   }
 
   .trolley-icon {
